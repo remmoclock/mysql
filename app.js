@@ -8,5 +8,5 @@ var db = mysql.createConnection({
 
 db.connect(function (err) {
   if (err) console.error("error connecting: " + err.stack);
-  else console.log("connected as id " + db.threadId + db.database);
+  else console.log("state", db.state);
 });
