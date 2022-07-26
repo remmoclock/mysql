@@ -1,5 +1,5 @@
 {
-  "name": "mysql",
+  "name": "mysql-test",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,5 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
