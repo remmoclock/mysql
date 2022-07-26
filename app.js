@@ -3,10 +3,10 @@ var db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "nodejs",
+  database: "nodejss",
 });
 
 db.connect(function (err) {
-  if (err) console.error("error connecting: " + err.stack);
+  if (err) console.log("error connecting: " + err.message);
   else console.log("state", db.state);
 });
